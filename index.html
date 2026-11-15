@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>流日365｜PACiDAL 人類圖</title>
+<meta name="description" content="依據個人人類圖，搭配每日星體行運變化，一日一張的個人流日電子檔，陪伴您走過一整年。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4EFE6;--paper:#FBF8F2;--ink:#1E2A44;--muted:#5E6676;--gold:#C9A24A;--line:#E3DACA}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font-family:'Noto Serif JP','Noto Serif CJK JP','Noto Serif TC',serif;font-weight:500;line-height:1.8;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.en{font-family:'Italiana',serif;font-weight:400;letter-spacing:.04em}
+
+/* hero */
+.hero{text-align:center;padding:56px 0 28px}
+.hero .en{font-size:64px;line-height:1}
+.hero h1{font-size:44px;font-weight:700;margin:14px 0 0;letter-spacing:.06em;line-height:1.2}
+.hero .sub{color:var(--muted);font-size:18px;margin-top:12px;letter-spacing:.06em}
+.frame{margin:28px auto 0;border:2px solid var(--gold);border-radius:28px;overflow:hidden;background:var(--paper)}
+.frame img{display:block;width:100%;height:auto}
+
+/* sections */
+section{padding:44px 0 0}
+.eyebrow{font-family:'Italiana',serif;letter-spacing:.2em;color:#8A6317;font-size:26px;font-weight:700}
+h2{font-size:28px;font-weight:700;margin:6px 0 16px;letter-spacing:.04em}
+.lead{font-size:18px;line-height:1.9;margin:0;font-weight:500}
+.list{list-style:none;padding:0;margin:22px 0 0}
+.list li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line);font-size:18px;font-weight:500}
+.list li:last-child{border-bottom:1px solid var(--line)}
+.list .dia{color:var(--gold);flex:none;margin-top:3px}
+
+/* samples */
+.samples{display:grid;gap:22px;margin-top:20px}
+.sample{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:12px;box-shadow:0 6px 22px rgba(30,42,68,.06)}
+.sample img{display:block;width:100%;height:auto;border-radius:10px}
+.sample .cap{display:flex;flex-direction:column;gap:4px;align-items:flex-start;padding:12px 6px 4px;font-size:18px;color:var(--muted);font-weight:500}
+.sample .cap b{font-weight:500;color:var(--ink);font-size:18px}
+.note{font-size:18px;color:var(--muted);margin-top:14px;font-weight:500}
+
+/* buy box */
+.buy{margin-top:8px;border:2px solid var(--gold);border-radius:22px;padding:28px 26px;background:var(--paper)}
+.buy .h{font-size:21px;font-weight:700;letter-spacing:.06em}
+.buy p{margin:10px 0 0;font-size:18px;font-weight:500}
+.price{margin-top:18px;display:flex;flex-direction:column;gap:6px}
+.price .old{color:var(--muted);font-size:18px;font-weight:500}
+.price .new{font-size:clamp(16px,3.4vw,28px);font-weight:700;white-space:nowrap}
+.price .new small{font-size:18px;color:var(--muted);margin-left:4px}
+.deadline{display:inline-block;margin-top:14px;padding:6px 14px;border-radius:999px;background:#F3E7C9;color:#7A5C1E;font-size:18px}
+
+/* cta */
+.cta{display:grid;gap:12px;margin-top:26px}
+.btn{display:block;text-align:center;text-decoration:none;color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:16px 20px;font-size:18px;font-weight:700;letter-spacing:.06em;transition:background .2s,color .2s}
+.btn.primary{background:var(--ink);color:#F4EFE6}
+.btn:hover{background:var(--ink);color:#F4EFE6}
+.btn.primary:hover{background:#2c3b5c}
+
+.ig{text-align:center;margin-top:18px;font-size:18px;color:var(--muted)}
+.ig a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--gold);font-family:'Italiana',serif;font-size:18px;letter-spacing:.06em}
+
+footer{margin-top:56px;padding:26px 0 44px;border-top:1px solid var(--line);text-align:center;font-size:18px;color:var(--muted)}
+footer .en{font-size:18px;color:var(--ink)}
+
+@media (min-width:640px){
+  .hero .en{font-size:80px}
+  .hero h1{font-size:52px}
+  .samples{grid-template-columns:1fr 1fr}
+  .cta{grid-template-columns:1fr 1fr}
+  .cta .btn.primary{grid-column:1 / -1}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header class="hero">
+    <div class="en">PACiDAL</div>
+    <h1>流日365</h1>
+    <div class="sub">一日一張・專屬您的個人流日</div>
+  </header>
+
+  <section>
+    <div class="eyebrow">ABOUT</div>
+    <h2>每天一張，看見今天的能量流動</h2>
+    <p class="lead">依據個人人類圖，搭配每日不同星體閘門的行運變化，為您提供一日一張的個人流日電子檔，陪伴您走過一整年。</p>
+    <ul class="list">
+      <li><span class="dia">◆</span><span>每天打開一張專屬您的流日內容</span></li>
+      <li><span class="dia">◆</span><span>看見今天的能量如何作用在定義中心與通道</span></li>
+      <li><span class="dia">◆</span><span>理解思考、情緒與人際互動的節奏</span></li>
+      <li><span class="dia">◆</span><span>適合想把人類圖運用在日常生活中的人</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="eyebrow">SAMPLE</div>
+    <h2>流日樣張</h2>
+    <p class="lead">每一天的流日內容，都會依照您的人類圖與當天的星體變化重新產生。以下是實際樣張：</p>
+    <div class="samples">
+      <figure class="sample" style="margin:0">
+        <img src="samples/day-12-31.jpg" alt="12/31 流日樣張" loading="lazy">
+        <figcaption class="cap"><b>12/31 樣張</b><span>一日一頁，清楚的當日重點</span></figcaption>
+      </figure>
+      <figure class="sample" style="margin:0">
+        <img src="samples/day-01-01.jpg" alt="1/1 流日樣張" loading="lazy">
+        <figcaption class="cap"><b>1/1 樣張</b><span>三件事、通道與能量變化一次看懂</span></figcaption>
+      </figure>
+    </div>
+    <p class="note">樣張為實際產出格式，您的內容會依個人人類圖產生。</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">PRICE</div>
+    <h2>購買方式</h2>
+    <div class="buy">
+      <div class="h">須先購買個人檔案成為會員，才能購買流日365。</div>
+      <div class="price">
+        <span class="old">2027 流日365　原價 NT$2500</span>
+        <span class="new">12/20 前，已購檔案會員：特惠 NT$2000</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a class="btn primary" href="https://lin.ee/rnaWgBq" target="_blank" rel="noopener">加入 LINE 了解更多・預約服務</a>
+    <a class="btn" href="https://www.instagram.com/pacidal_flow/" target="_blank" rel="noopener">看每日公開的流日</a>
+  </div>
+  <p class="ig">Instagram　<a href="https://www.instagram.com/pacidal_flow/" target="_blank" rel="noopener">@pacidal_flow</a></p>
+
+  <footer>
+    <div class="en">PACiDAL | PACIDAL HUMAN DESIGN</div>
+    <p>版權所有 © 2026 LEE HUI-YUN．All rights reserved.</p>
+  </footer>
+
+</main>
+</body>
+</html>
